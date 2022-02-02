@@ -1,0 +1,5 @@
+[[I.A.1. value]]
+[[I.A.2. representation]]
+[[I.A.3. place]]
+[[I.A.4. variable]]
+[[I.A.5. pointer]]
