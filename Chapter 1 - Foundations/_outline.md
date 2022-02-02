@@ -22,4 +22,5 @@
 		- [[I.D.1. owner]]
 		- [[I.D.2. Copy trait]]
 		- [[I.D.3. dropping & drop order]]
-	- [[I.C. Borrowing and Lifetimes]]
+	- [[I.E. Borrowing and Lifetimes]]
+	- 
