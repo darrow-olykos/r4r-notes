@@ -1,7 +1,7 @@
 - `&T`
 - a pointer that may be shared
 - each shared reference is a `Copy`
-- values behind shared references are immutable
+- [[I.A.1. value]]s behind shared references are immutable
 
 Should never fail:
 ```rust
