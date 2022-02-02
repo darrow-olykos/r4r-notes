@@ -1,0 +1,6 @@
+- Rust automatically drops values when they go out of scope
+- types usually recursively drop values they contain
+- [[I.A.4. variable]]s (including function arguments) are dropped in reverse order
+		- later [[I.A.4. variable]]s may contain references to earlier [[I.A.1. value]]s, so to avoid invalid references, it makes sense to drop later [[I.A.4. variable]]s first
+- nested values are dropped in source-code order (first value in tuple, array, or struct gets dropped first)
+		- (allegedly this is more intuitive than dropping the last element first)

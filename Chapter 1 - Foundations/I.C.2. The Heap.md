@@ -10,7 +10,7 @@ How:
 	- memory is freed when the `Box` is dropped
 
 Risk:
-- [[III.A.2.i. leaking memory]]
+- [[I.C.2.i. leaking memory]]
 
 Why:
 - For when you want a value to live beyond the lifetime of the current function's frame (e.g. send to another thread)

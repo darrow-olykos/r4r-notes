@@ -1,0 +1,8 @@
+- Catch-all term for several closely related regions located in the file your program compiles into
+- automatically loaded into program's memory when program starts
+- values live for entire execution of program
+- contains:
+	- the program's binary code (usually read-only)
+	- variables declared with `static` keyword
+	- certain constant [[I.A.1. value]]s like `strings`
+- [[I.C.3.i. static lifetime]]

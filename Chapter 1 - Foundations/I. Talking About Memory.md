@@ -1,5 +1,5 @@
 [[I.A. Memory Terminology]]
-[[II.A. Variables in Depth]]
-[[III.A. Memory Regions]]
+[[I.B. Variables in Depth]]
+[[I.C. Memory Regions]]
 [[IV.A. Ownership]]
 [[V.A. Borrowing and Lifetimes]]

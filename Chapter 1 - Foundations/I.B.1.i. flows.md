@@ -1,5 +1,5 @@
 What:
-- [[II.A.1. High-Level Model]] for tracing the lifetime of a particular instance of a [[I.A.1. value]]
+- [[I.B.1. High-Level Model]] for tracing the lifetime of a particular instance of a [[I.A.1. value]]
 - can fork and merge when there are branches, with each split tracing a distinct lifetime for that [[I.A.1. value]]
 - compiler can enforce rules like *"there cannot be two parallel **flows** with mutable access to a [[I.A.1. value]]"
 

@@ -1,0 +1,4 @@
+- constant (`const`) items:
+	- can be completely computed at compiled time
+	- any code that references them is replaced with computed value during compilation
+	- has no memory or other storage associated with it (it is not a [[I.A.3. place]])
