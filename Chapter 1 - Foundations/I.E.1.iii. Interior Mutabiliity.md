@@ -10,4 +10,3 @@
 				- `std::sync::atomic` integers
 				- `std::cell::Cell` [[I.E.1.iii.a. Cell type]]
 			- these types give you methods for manipulating that value rather than handing out a [[I.E.1.ii. Mutable reference (&mut T)]]
-

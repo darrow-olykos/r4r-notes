@@ -5,5 +5,5 @@
 - [[I.E.1.i. Shared reference (&T)]]
 - [[I.E.1.ii. Mutable reference (&mut T)]]
 - [[I.E.1.iii. Interior Mutabiliity]]
-- [[I.E.1.iv Lifetimes]]
+- [[I.E.1.iv Lifetime]]
 - 

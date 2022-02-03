@@ -1,0 +1,3 @@
+- junior Rust dev: "a Lifetime corresponds to the scope of a variable"
+- expert Rust dev: "a Lifetime is a name for a region of code that some reference must be valid for (might correspond to scope, doesn't have to)"
+- [[I.E.1.iv.a. Lifetimes and the Borrow Checker]]

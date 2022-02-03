@@ -1,1 +1,1 @@
-- Rust allows the [[I.D.1. owner]] of a [[I.A.1. value]] to lend out that [[I.A.1. value]] to others w/out giving up [[I.D. Ownership]] via [[I.E.1. references]]
+- Rust allows the [[I.D.1. owner]] of a [[I.A.1. value]] to lend out that [[I.A.1. value]] to others w/out giving up [[I.D. Ownership]] via [[I.E.1. reference]]
