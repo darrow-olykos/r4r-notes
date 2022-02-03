@@ -1,5 +1,5 @@
 - `&mut T`
-- mutable references differ from [[I.E.1.i. Shared references (&T)]] in that mutable reference is **exclusive**:
+- mutable references differ from [[I.E.1.i. Shared reference (&T)]] in that mutable reference is **exclusive**:
 	- 1. Assumes that no other threads are accessing the target value 
 	- 2. Lets you mutate the ***memory location*** that the reference points to
 	- 3. "Whether you can mutate the values that lie beyond the immediate reference is dependent on the type that lies between"

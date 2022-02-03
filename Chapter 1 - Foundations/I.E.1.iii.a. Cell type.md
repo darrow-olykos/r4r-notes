@@ -1,0 +1,6 @@
+- `std::cell::Cell`
+- example of safe [[I.E.1.iii. Interior Mutabiliity]] through invariants.
+- not shareable across threads (so inner [[I.A.1. value]] will never be concurrently mutated)
+- never gives out reference to the [[I.A.1. value]] contained in the `Cell`
+- all methods either replace the [[I.A.1. value]] entirely or return a copy of the contained value
+- since no references can exist to its inner [[I.A.1. value]], it is always OK to move it
