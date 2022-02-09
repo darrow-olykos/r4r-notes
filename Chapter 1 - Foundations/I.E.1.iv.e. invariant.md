@@ -1,0 +1,7 @@
+- you must provide exactly the given type
+- any type that provides mutability is generally **invariant**
+- `&mut T` is invariant in `T`.
+		- You CANNOT pass `&mut Vec<&'static str>` to something expecting `&mut Vec<&'a str>` .
+		- *clarification*: **For the "reason why this isn't allowed: What is a code example of trying to put a short-lived string inside of the Vec?**
+- `Cell<T>` is invariant in `T` (`Cell` provides mutability)
+- see also [[I.E.1.iv.d. covariant]] and [[I.E.1.iv.f contravariant]]
