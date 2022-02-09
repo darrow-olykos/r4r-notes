@@ -11,9 +11,10 @@
 
 ```rust
 struct MutStr<'a, 'b> {
-	s: &'a mut &'b str
+	s: &'a mut &'b str // two lifetimes for a single field... (necessary here)
 }
 let mut s = "hello";
 &MutStr { s: &mut s }.s = "world";
 println!("{}", s);
 ```
+
