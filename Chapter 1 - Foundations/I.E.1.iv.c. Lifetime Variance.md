@@ -18,3 +18,7 @@ let mut s = "hello";
 println!("{}", s);
 ```
 
+TODO: ***clarify:* re-read this last section and try to understand the four paragraphs after listing 1-11.**
+
+Summary:
+ToDo

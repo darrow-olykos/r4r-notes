@@ -1,0 +1,5 @@
+- dictates where the bytes for a type can be stored.
+- all values must start at a byte boundary
+- [[CPU's word size]]
+- [[misaligned accesses]]
+- 

@@ -10,4 +10,3 @@ fn take_func2(&'a str)      // less strict, more useful
 ```
 
 - `Fn(T)` is contravariant in `T`
-- 

@@ -1,0 +1,2 @@
+- the size of the memory chunk accessed in the CPU and memory system
+- indicates the largest memory address or integer that can be processed

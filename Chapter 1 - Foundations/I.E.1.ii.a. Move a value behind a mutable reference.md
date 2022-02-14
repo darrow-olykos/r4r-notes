@@ -31,3 +31,7 @@ Help:
 - In the book, what is (3) trying to say?
 - https://rust-dc.zulipchat.com/#narrow/stream/312937-book-club/topic/Ch.201.20Help.20-.20Confusion.20on.20Page.2011.2C.20Listing.201-7.2C.20Number.203
 
+
+QUESTION:
+- mem::replace
+	- Why use this instead of `*dest = src` ?

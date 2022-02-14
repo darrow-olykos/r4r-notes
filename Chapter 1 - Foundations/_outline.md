@@ -23,4 +23,3 @@
 		- [[I.D.2. Copy trait]]
 		- [[I.D.3. dropping & drop order]]
 	- [[I.E. Borrowing and Lifetimes]]
-	- 

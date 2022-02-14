@@ -1,4 +1,3 @@
-What:
 - the compiler's in-memory representation of a type
 - few guarantes from Rust compiler
 		- see ```repr(C)```

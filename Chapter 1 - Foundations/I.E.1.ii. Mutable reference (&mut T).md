@@ -61,3 +61,5 @@ fn change_value_through_mutable_reference() {
 - Difference between [[I.D. Ownership]] and mutable reference?
 		- the [[I.D.1. owner]] is responsible for dropping the [[I.A.1. value]] when it is no longer necessary
 		- everything else is the same except for when you [[I.E.1.ii.a. Move a value behind a mutable reference]]
+
+"What does compiler do when it sees &46?" - Joel
