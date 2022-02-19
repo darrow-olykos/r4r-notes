@@ -2,5 +2,5 @@
 - few guarantes from Rust compiler
 		- see ```repr(C)```
 		- see ```repr(transparent)``` + NewType Pattern (TODO: example)
-- the way a compiler sequencesvalue's bytes is laid out
-- aka [[I.A.2. representation]]
+- the way a compiler sequences value's bytes is laid out
+- determined by a [[I.A.2. representation]]

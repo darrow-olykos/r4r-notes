@@ -1,5 +1,10 @@
 - dictates where the bytes for a type can be stored.
 - all values must start at a byte boundary
-- [[CPU's word size]]
-- [[misaligned accesses]]
-- 
+- "built-in values are usually aligned to their size" (u8 -> 1 byte, u16 -> 2 byte etc)
+	- * up to CPU word size? i128 has alignment of 8 bytes
+- Second example here helps solidify how "alignment" and size can be added: https://doc.rust-lang.org/std/mem/fn.size_of.html#examples
+- the struct A example here shows how the total "size" of a non-primitive type can differ between compilation, depending on where padding is added, for #\[repr(Rust)\]: https://doc.rust-lang.org/nomicon/repr-rust.html#reprrust
+- these resources help explain alignment well:
+	- https://doc.rust-lang.org/reference/type-layout.html
+	- https://www.kernel.org/doc/Documentation/unaligned-memory-access.txt
+	- https://www.youtube.com/watch?v=rDoqT-a6UFg
